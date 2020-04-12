@@ -5310,7 +5310,6 @@ table tbody tr td,table tbody tr td {
 }
 
 .comments-area .comment-content {
-    margin-left: 70px;
     overflow: hidden;
     padding-bottom: 30px;
     position: relative;
