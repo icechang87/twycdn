@@ -1,0 +1,165 @@
+
+cdn.jsdelivr.net  59.54.253.75     gcp 1.2到期   网盘 10.29 到期
+
+<div ><p>近日感谢：<b><font color="#FF9900">暂无</font></b>（期待有您，成为终生VIP会员）感谢支持,您的支持是我们持续坚持的动力，万谢！</p></div>
+
+世纪互联api
+462d1c4f-283a-4a73-a8ec-0327eab36dd8
+8xwdLnRx~2~XvDC-_~6nu3XzLUtVN2--X5
+
+oneindex
+01b34ff5-036b-4310-b764-a032b30c371d
+isFxO-~c~6T-i~5cyU5Cm3~wJ2.I4zeSXd
+
+c2f3ac16-f32d-42e3-87bc-180333e5b5ca
+Sd~6V-sm91M3UBryQ~e03vSZ4utwy~fjHc
+
+admin@211026.partner.onmschina.cn
+qjwxy8722@gmail.com
+
+ipconfig/flushdns
+yt-dlp https://www.youtube.com/watch?v=NMUkNEr9Vws
+  
+yt-dlp  -o zqsc-BSTXxVfCbx0.mp4 -f 22 https://www.youtube.com/watch?v=BSTXxVfCbx0
+yt-dlp -o cfx-UluOOx2Ph_s.mp4 -f 22 https://www.youtube.com/watch?v=UluOOx2Ph_s
+yt-dlp -o zqsc-9mm8CqE54cQ.mp4 -f 22 https://www.youtube.com/watch?v=9mm8CqE54cQ
+yt-dlp -o yym-Cwf1BNnuJqc.mp4 -f 22 https://www.youtube.com/watch?v=Cwf1BNnuJqc
+youtube-dl  -o dsz-27l_MBJZMFE.mp4 -f 95 https://www.youtube.com/watch?v=27l_MBJZMFE
+youtube-dl  -o ysga-TsF2PPxr7N0.mp4 -f 95 https://www.youtube.com/watch?v=TsF2PPxr7N0
+youtube-dl  -o ss-ICRa_gDBzYI.mp4 -f 94 https://www.youtube.com/watch?v=ICRa_gDBzYI
+yt-dlp -o  ysgb-TVAUIMT0v9I.mp4  -f 22 https://www.youtube.com/watch?v=TVAUIMT0v9I
+youtube-dl  -o "ttkj-TasaZVvQmJY.mp4" -f  95 https://www.youtube.com/watch?v=TasaZVvQmJY
+youtube-dl  -o "zcfh-So6jornq4Ro.mp4" -f 94 https://www.youtube.com/watch?v=So6jornq4Ro
+youtube-dl  -o  dsy-WzYhhoiKj2c.mp4 -f 95 https://www.youtube.com/watch?v=WzYhhoiKj2c
+yt-dlp  -o "f.mp4" -f 22 https://www.youtube.com/watch?v=umvM-Rex9w0
+youtube-dl   -f 140 https://www.youtube.com/watch?v=tSHb6acXMj8
+youtube-dl    -f 22 https://www.youtube.com/watch?v=OxOH40zeOOw
+yt-dlp -F https://www.youtube.com/watch?v=b4v5K8dlS0c
+rclone copy  -v  twy2:/twy/2021/08 od211026a:/21/08 --transfers=5 --progress  --ignore-errors  谷歌网盘转移到OD
+rclone copy -v /root/docker/clouddrive/CloudDrive/阿里云盘/电影/pron/迅雷 twy2:/down/ --transfers=3
+
+rclone move -v /root/mp4/ twy2:/twy/2021/11/27 --transfers=1 --progress 
+rclone copy -v /root/mp4/ twy2:/twy/2021/11/27 --transfers=3 --progress && rclone move  -v  /root/mp4/   od211026c:/21/11/27 --transfers=3 --progress  
+
+ffmpeg -i a.rmvb -c:v libx264 -strict -2 a.mp4
+ 
+ffmpeg -i zqsc-BSTXxVfCbx0.mp4 -f segment -segment_time 10 -segment_format mpegts  -segment_list /root/m/index-zqsc.m3u8 -c copy -bsf:v h264_mp4toannexb -map 0 /root/t/twy-zqsc-%04d.png
+
+ffmpeg -i cfx-UluOOx2Ph_s.mp4 -f segment -segment_time 10 -segment_format mpegts  -segment_list /root/m/index-cfx.m3u8 -c copy -bsf:v h264_mp4toannexb -map 0 /root/t/twy-cfx-%04d.png
+
+ffmpeg -i dsy-WzYhhoiKj2c.mp4 -f segment -segment_time 10 -segment_format mpegts  -segment_list /root/m/index-dsy.m3u8 -c copy -bsf:v h264_mp4toannexb -map 0 /root/t/twy-dsy-%04d.png
+
+ffmpeg -i ttkj-TasaZVvQmJY.mp4 -f segment -segment_time 10 -segment_format mpegts  -segment_list /root/m/index-ttkj.m3u8 -c copy -bsf:v h264_mp4toannexb -map 0 /root/t/twy-ttkj-%04d.png
+
+ffmpeg -i zcfh-So6jornq4Ro.mp4 -f segment -segment_time 20 -segment_format mpegts  -segment_list /root/m/index-zcfh.m3u8 -c copy -bsf:v h264_mp4toannexb -map 0 /root/t/twy-zcfh-%04d.png
+
+
+ffmpeg -i  hyc-ZvLBxPmZFV8.mp4 -f segment -segment_time 10 -segment_format mpegts  -segment_list /root/m/index-hyc.m3u8 -c copy -bsf:v h264_mp4toannexb -map 0 /root/t/twy-hyc-%04d.png
+
+剪切前60秒：
+ffmpeg -i zqsc-CY2C6gA6C7Y.mp4 -ss 0 -c copy -t 60 zqsc2.mp4
+
+ssh-keygen -t ed25519 -C "twy5@protonmail.com"
+
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://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@github.com/n211127/211127.git
+git push -u origin main
+
+
+git-push tokens 
+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
+ git config --global user.name "twy5@protonmail.com"
+git config --global user.email "twy5@protonmail.com"
+ssh-keygen -t rsa -C “ice.b.seo@gmail.com”
+
+git add . && git commit -m "first commit" && git push -u origin main 
+
+rm -r -f a/* && wget -i dbh.m3u8 -P a
+
+同步删除：rm -r -f .git
+rm -r -f *.png
+rm -r -f /root/d/*  /root/t/.git  /root/m/*   /root/t/*
+
+mp4 合并
+ffmpeg -i a.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb a.ts  &&
+ffmpeg -i b.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb b.ts
+ffmpeg -i c.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb c.ts   &&
+ffmpeg -i d.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb d.ts
+ffmpeg -i e.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb e.ts  &&
+ffmpeg -i f.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb f.ts
+ffmpeg -i "concat:e.ts|f.ts" -acodec copy -vcodec copy -absf aac_adtstoasc hyc-ZvLBxPmZFV8.mp4
+http://124.156.154.189:8888/4ad925fa/
+ffmpeg -i a.webm -i a.m4a -c copy -map 0:v:0 -map 1:a:0 aa.mp4
+
+挂载：rclone mount pron:/日本/無碼 ice:/jp/無碼 --allow-other --allow-non-empty --vfs-cache-mode writes &
+TWY上传到谷歌网盘
+rclone mount gdrive:/日本/jp/無碼 /root/gg --allow-other --allow-non-empty --vfs-cache-mode writes &
+挂载谷歌云
+rclone mount pron:/日本/new/JAV_output /media  --allow-other --allow-non-empty --vfs-cache-mode writes &
+挂载谷歌云到群晖 rclone mount googledrive:/日本/jp/無碼 /volume1/googledrive --allow-other --allow-non-empty --vfs-cache-mode writes &
+rclone mount googledrive:/日本/new/JAV_output /volume1/Gdrive --allow-other --allow-non-empty --vfs-cache-mode writes &
+rclone mount aliyun: /volume1/aliyun --allow-other --allow-non-empty --vfs-cache-mode writes &
+卸载：fusermount -qzu /volume1/aliyun
+umount /tmp/Emby/*
+挂载：rclone mount ice: /root/AV_Data_Capture/jav --allow-other --allow-non-empty --vfs-cache-mode writes &
+rclone mount pron: F:/pron --allow-other --allow-non-empty --vfs-cache-mode writes &
+rclone mount pron:/ H: --cache-dir D:\Onedrive --vfs-cache-mode writes &
+
+gclone copy ice:{12p02xr5EuXoVMvH2H-BTp_RShBuJnvMx} ice:测试2 --drive-server-side-across-configs -v
+gclone copy pron:日本/無碼 ice:jp/無碼  --drive-server-side-across-configs -v
+
+
+https://drive.google.com/drive/folders/0AJ_HeKwkmNn1Uk9PVA
+gclone copy pron:日本 ice:jp --drive-server-side-across-configs -v
+gclone copy pron:  ice:pron --drive-server-side-across-configs -v
+gclone copy ice:{1SdqYiBKHyKlv4bkhpnbVF2VTCe84NIxL} ice:无码 --drive-server-side-across-configs -v
+gclone copy ice:{1GNT079tzSSreedZdEM7wVTlxlfoSoTSX} icecopy:jp/無碼 --drive-server-side-across-configs -v
+
+python3 add_to_team_drive.py -d 0AHyLIr5_89S8Uk9PVA
+/root/AutoRclone/accounts/0aa588027e8668aa0a198211faa642579d14f145.json
+
+ice@hbwebs.partner.onmschina.cn
+<div style="display: none;"><img class="aligncenter size-full wp-image-3383" src="https://cdn.jsdelivr.net/gh/icechang87/twycdn/uploads/2020/04/1586148402-232059cb5361a93.jpg" alt="" width="878" height="270" /></div>
+
+
+
+ocid1.user.oc1..aaaaaaaak3dtc7wutuufiwmb3st2a4u3jesw5gsku7tgjetupklaav3qrz7a
+ocid1.tenancy.oc1..aaaaaaaa3vmob32la734mmvymjezp5msk4zlnrjo474akqlshsngge3hjpta
+
+
+
+
+
+自由人 hbwebs  Dq03O0.AHqToWc-hUclxE_-S86~u_72wtI
+
+icechang@secmail.pro
+icechang@mail2tor.com 
+
+秘钥 Dq03O0.AHqToWc-hUclxE_-S86~u_72wtI
+ID f27f3b8a-7a1b-40b2-9c5a-3be3467967eb
+
+注册成功!
+
+用户编号: 659981
+
+用户密码: zq5201314.
+您设置的交易密码是:hanbing360
+系统自动产生的交易密码恢复密钥为:
+
+9YvDHb5jX01vR-Q-PhcAigju#QURnmAxK93aATPDShbOBbsfO=F#*I#h3sHt6YLS*w45MH
+
+群晖挂载阿里云盘
+sudo mount --make-shared /volume1 
+
+sudo docker run --name clouddrive -v /volume1/Aliyun:/CloudNAS:shared -v /volume1/docker/clouddrive/config:/Config -p 9798:9798/tcp --privileged --device /dev/fuse:/dev/fuse -d cloudnas/clouddrive
+
+
+本地DNS
+211.137.58.20
+211.137.64.163
+
+https://dns10.quad9.net/dns-query
+https://dns.google/dns-query
+https://dns.cloudflare.com/dns-query
